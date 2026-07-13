@@ -4,17 +4,7 @@
 
 A validator and automatic test suite for [CLAP](https://github.com/free-audio/clap) plugins. Clap-validator can automatically test one or more plugins for common bugs and incorrect behavior.
 
-> **This is a maintained fork** of [free-audio/clap-validator](https://github.com/free-audio/clap-validator) with DAW-typical lifecycle tests, updated dependencies, and Rust 2024 edition.
-
-## Download
-
-Prebuilt binaries can be found on the [releases
-page](https://github.com/lxndrbe/clap-validator/releases). Development builds
-can be found
-[here](https://nightly.link/lxndrbe/clap-validator/workflows/build/master).
-The macOS builds are unsigned and may require Gatekeeper to be disabled or the
-quarantine bit to be removed
-([instructions](https://disable-gatekeeper.github.io/)).
+> **This is a maintained fork** of [free-audio/clap-validator](https://github.com/free-audio/clap-validator) with DAW-typical lifecycle tests, updated dependencies, and Rust 2026 edition.
 
 ### Usage
 
