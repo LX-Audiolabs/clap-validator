@@ -4,7 +4,7 @@
 
 A validator and automatic test suite for [CLAP](https://github.com/free-audio/clap) plugins. Clap-validator can automatically test one or more plugins for common bugs and incorrect behavior.
 
-> **This is a maintained fork** of [free-audio/clap-validator](https://github.com/free-audio/clap-validator) with DAW-typical lifecycle tests, updated dependencies, and Rust 2026 edition.
+> **This is a maintained fork** of [free-audio/clap-validator](https://github.com/free-audio/clap-validator) with DAW-typical lifecycle tests, updated dependencies, and Rust 2024 edition.
 
 ### Usage
 
