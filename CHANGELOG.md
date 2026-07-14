@@ -16,7 +16,7 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 
 - Updated dependencies and migrated to Rust 2024 edition
-- Cherry-picked upstream PRs #27, #28, #29
+- Cherry-picked upstream PRs #27, #28, #29, #30
 - Fork maintained at lxndrbe/clap-validator
 
 ## [Unreleased]
