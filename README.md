@@ -1,7 +1,5 @@
 # clap-validator
 
-[![Automated builds](https://github.com/lxndrbe/clap-validator/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/lxndrbe/clap-validator/actions/workflows/build.yml?query=branch%3Amaster)
-
 A validator and automatic test suite for [CLAP](https://github.com/free-audio/clap) plugins. Clap-validator can automatically test one or more plugins for common bugs and incorrect behavior.
 
 > **This is a maintained fork** of [free-audio/clap-validator](https://github.com/free-audio/clap-validator) with DAW-typical lifecycle tests, updated dependencies, and Rust 2024 edition.
@@ -33,7 +31,13 @@ clap-validator validate --in-process --test-filter <test-case-name> /path/to/the
 
 ## Building
 
-After installing [Rust](https://rustup.rs/), you can compile and run clap-validator as follows:
+Requires [Rust](https://rustup.rs/). Build and install:
+
+```shell
+cargo install --path .
+```
+
+Or run directly without installing:
 
 ```shell
 cargo run --release -- validate /path/to/the/plugin.clap
