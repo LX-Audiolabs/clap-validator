@@ -29,9 +29,16 @@ to list all available tests.
 clap-validator validate --in-process --test-filter <test-case-name> /path/to/the/plugin.clap
 ```
 
-## Building
+## Building & Installing
 
 Requires [Rust](https://rustup.rs/). Build and install:
+
+Install:
+
+```shell
+cargo install --git https://github.com/LX-Audiolabs/clap-validator --tag v0.3.5 --force
+```
+OR download the latest release, then:
 
 ```shell
 cargo install --path .
