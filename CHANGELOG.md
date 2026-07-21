@@ -6,20 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic
 Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.3.3] - 2026-07-13
-
-### Added
-
-- DAW-typical lifecycle and state tests
-- Hidden parameter randomization
-
-### Changed
-
-- Updated dependencies and migrated to Rust 2024 edition
-- Cherry-picked upstream PRs #27, #28, #29, #30
-- Fork maintained at lxndrbe/clap-validator
-
-## [Unreleased]
 
 ## [0.3.5] - 2026-07-21
 
@@ -58,17 +44,26 @@ Versioning](https://semver.org/spec/v2.0.0.html).
   0.5.0 mutability change).
 - Removed `CLAP_PORT_CV` reference (CV extension removed in CLAP 1.2.0).
 
-## [0.3.3]
+## [0.3.3] - 2026-07-13
+
+### Added
+
+- DAW-typical lifecycle and state tests
+- Hidden parameter randomization
 
 ### Changed
 
 - Having both the `CLAP_PARAM_IS_READONLY` flag and any of the
   `CLAP_PARAM_IS_AUTOMATABLE` or `CLAP_PARAM_IS_MODULATABLE` flags set now
   results in an error.
+- Updated dependencies and migrated to Rust 2024 edition
+- Cherry-picked upstream PRs #27, #28, #29, #30
 - The logic for which parameters can be randomized has changed. Previously all
   parameters marked as automatable could be changed. Now parameters marked as
   hidden or readonly are ignored instead, as non-automatable parameters can
   still be changed as the result of live user input.
+
+## [Unreleased]
 
 ## [0.3.2] - 2023-03-25
 
